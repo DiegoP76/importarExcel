@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leer Excel</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <input type="file" class="form-control" id="excel-input">
+                <!-- VER CÓMO EN EL LOAD DE LA PÁGINA, CARGAR ARCHIVO EXCEL Q ESTÁ EN LA MISMA CARPETA
+                     SIN TENER Q PRESIONAR EL BOTÓN Y ABRIRLO MANUALMENTE COMO ESTÁ ACTUALMENTE  
+                -->
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="table-responsive">
+                <table class="table" id="excel-table">
+                    <thead>
+                        <tr>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!--Video de la explicación: -->
+    <!-- https://www.youtube.com/watch?v=DzfrWdrBy3Y&t=1449s -->
+
+    <!-- https://www.npmjs.com/package/read-excel-file#cdn  web para sacar enlace de la siguiente línea-->
+    <script src="https://unpkg.com/read-excel-file@5.x/bundle/read-excel-file.min.js"></script>
+        
+    <script src="script.js"></script>
+</body>
+</html>
